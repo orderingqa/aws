@@ -48,6 +48,7 @@
 </head>
 <body>
 <a href="shuai.jsp">second</a>
+<a href="/jenkins/">jenkins</a>
     <div id="content" class="container">
         <div class="section grid grid5 s3">
             <h2>Amazon S3 Buckets:</h2>
