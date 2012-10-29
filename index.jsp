@@ -47,8 +47,8 @@
     <link rel="stylesheet" href="styles/styles.css" type="text/css" media="screen">
 </head>
 <body>
-<a href="shuai.jsp">second</a>
-<a href="/jenkins/">jenkins</a>
+<a href="shuai.jsp">just created a page inside application</a>
+<a href="/jenkins/">jenkins war link outside of the application</a>
     <div id="content" class="container">
         <div class="section grid grid5 s3">
             <h2>Amazon S3 Buckets:</h2>
