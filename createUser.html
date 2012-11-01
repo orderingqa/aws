@@ -21,10 +21,12 @@
 		  $.ajax({
 			  type:"post",
 			  contentType:"application/xml",
-			  url:"http://localhost:8080/example-1.0-SNAPSHOT/api/user",
+			  url:"/example-1.0-SNAPSHOT/api/user",
 			  data:"<?xml version=\"1.0\" encoding=\"UTF-8\"?><user><username>"+$('#username').val()+"</username><password>"+$('#password').val()+"</password></user>",
 			  dataType:"xml",
-			  success:function onSucc(data){alert("ok");},
+			  success:function onSucc(data){
+				  window.location.href = "/example-1.0-SNAPSHOT/api/users";
+			  },
 			  error:function onErr(){alert("«Î«Û ß∞‹");}
 			  });
 		  return false;

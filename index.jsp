@@ -49,6 +49,7 @@
 <body>
 <a href="shuai.jsp">just created a page inside application</a>
 <a href="/jenkins/">jenkins war link outside of the application</a>
+<a href="createUser.html">This link demonstrate a way to call RESTfull service</a>
     <div id="content" class="container">
         <div class="section grid grid5 s3">
             <h2>Amazon S3 Buckets:</h2>
