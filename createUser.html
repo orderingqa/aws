@@ -21,11 +21,11 @@
 		  $.ajax({
 			  type:"post",
 			  contentType:"application/xml",
-			  url:"/example-1.0-SNAPSHOT/api/user",
+			  url:"/api/user",
 			  data:"<?xml version=\"1.0\" encoding=\"UTF-8\"?><user><username>"+$('#username').val()+"</username><password>"+$('#password').val()+"</password></user>",
 			  dataType:"xml",
 			  success:function onSucc(data){
-				  parent.window.location.href = "/example-1.0-SNAPSHOT/api/users";
+				  parent.window.location.href = "/api/users";
 			  },
 			  error:function onErr(){alert("«Î«Û ß∞‹");}
 			  });
