@@ -47,9 +47,10 @@
     <link rel="stylesheet" href="styles/styles.css" type="text/css" media="screen">
 </head>
 <body>
-<a href="shuai.jsp">just created a page inside application</a>
+<a href="shuai.jsp">another index</a>
 <a href="/jenkins/">jenkins war link outside of the application</a>
-<a href="createUser_iframe.html">This link demonstrate a way to call RESTfull service</a>
+<a href="createUser_iframe.html">Call cross-domain RESTfull service with iframe</a>
+<a href="createUserByPostToWebsite.html">Call service by own handler and do internal service call</a>
     <div id="content" class="container">
         <div class="section grid grid5 s3">
             <h2>Amazon S3 Buckets:</h2>
