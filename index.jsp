@@ -47,6 +47,7 @@
     <link rel="stylesheet" href="styles/styles.css" type="text/css" media="screen">
 </head>
 <body>
+<p>awswebsite local project added</p>
 <a href="shuai.jsp">another index</a>
 <a href="/jenkins/">jenkins war link outside of the application</a>
 <a href="createUser_iframe.html">Call cross-domain RESTfull service with iframe</a>
