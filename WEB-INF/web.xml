@@ -19,4 +19,14 @@
     <servlet-name>AcceptRestServiceData</servlet-name>
     <url-pattern>/AcceptRestServiceData</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UploadFileToS3Servlet</display-name>
+    <servlet-name>UploadFileToS3Servlet</servlet-name>
+    <servlet-class>com.website.s3.UploadFileToS3Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UploadFileToS3Servlet</servlet-name>
+    <url-pattern>/UploadFileToS3Servlet</url-pattern>
+  </servlet-mapping>
 </web-app>

@@ -35,6 +35,7 @@
             getClass().getClassLoader().getResourceAsStream("AwsCredentials.properties"));
         ec2 = new AmazonEC2Client(credentials);
         s3  = new AmazonS3Client(credentials);
+        
         sdb = new AmazonSimpleDBClient(credentials);
     }
 %>
@@ -53,6 +54,7 @@
 <a href="/jenkins/">jenkins war link outside of the application</a>
 <a href="createUser_iframe.html">Call cross-domain RESTfull service with iframe</a>
 <a href="createUserByPostToWebsite.html">Call service by own handler and do internal service call</a>
+<a href="UploadFileToS3.jsp">uploadFilesToS3</a>
 <p>Added at basicawswebproject for get conflict</p>
     <div id="content" class="container">
         <div class="section grid grid5 s3">
